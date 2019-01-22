@@ -29,7 +29,7 @@ def word_substituter(tweet)
   return new_tweet
 end
 
-def bulk_twee_shortener(tweet_list)
+def bulk_tweet_shortener(tweet_list)
   
   puts("Final result")
 end
