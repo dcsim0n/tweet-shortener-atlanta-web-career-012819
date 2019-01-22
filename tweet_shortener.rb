@@ -1,4 +1,5 @@
 # Write your code here.
+import pry
 def words_dict()
 words_dict = {
   "hello" => 'hi',
