@@ -26,7 +26,7 @@ def word_substituter(tweet)
     end
   end #end map
   binding pry
-  return new_tweet
+  return new_tweet.join(' ')
 end
 
 def bulk_tweet_shortener(tweet_list)
