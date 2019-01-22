@@ -21,11 +21,11 @@ def word_substituter(tweet)
   new_tweet = words.map do |w|
     if words_dict.keys.include?(w)
       binding.pry
-      return dictionary[w]
+      dictionary[w]
       
     else
       binding.pry
-      return w
+      w
       
     end
   end #end map
