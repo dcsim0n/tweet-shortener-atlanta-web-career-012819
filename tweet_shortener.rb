@@ -1,5 +1,5 @@
 # Write your code here.
-require pry
+import pry
 def words_dict()
 words_dict = {
   "hello" => 'hi',
