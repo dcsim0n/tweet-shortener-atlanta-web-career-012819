@@ -24,6 +24,7 @@ def word_substituter(tweet)
       return w
     end
   end #end map
+  return new_tweet
 end
 
 def bulk_twee_shortener(tweet_list)
