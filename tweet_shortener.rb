@@ -1,6 +1,6 @@
 # Write your code here.
 
-dictionary = {
+words_dict = {
   "hello" => 'hi',
   "to" => '2',
   "two" => '2',
@@ -17,7 +17,7 @@ dictionary = {
 def word_substituter(tweet)
   words = tweet.split()
   new_tweet = words.map do |w|
-    if dictionary.keys.include?(w)
+    if words_dict.keys.include?(w)
       return dictionary[w]
     else
       return w
