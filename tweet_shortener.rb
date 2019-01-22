@@ -21,7 +21,7 @@ def word_substituter(tweet)
   new_tweet = words.map do |w|
     if words_dict.keys.include?(w)
       binding.pry
-      dictionary[w]
+      words_dict[w]
       
     else
       binding.pry
