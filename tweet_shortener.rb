@@ -25,6 +25,7 @@ def word_substituter(tweet)
       return w
     end
   end #end map
+  binding pry
   return new_tweet
 end
 
