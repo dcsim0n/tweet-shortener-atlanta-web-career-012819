@@ -1,6 +1,6 @@
 # Write your code here.
-
-@words_dict = {
+def words_dict()
+words_dict = {
   "hello" => 'hi',
   "to" => '2',
   "two" => '2',
@@ -13,6 +13,7 @@
   "and" => '&'
   
 }
+end
 
 def word_substituter(tweet)
   words = tweet.split()
